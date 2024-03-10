@@ -644,9 +644,9 @@ footer > .container {
 }
 
 .privacy-check:checked + .checkbox-label span {
-  background-color: red;
+  background-color: #404BBF;
+  fill: #F4F4FD;
 }
 
 .check-icon {
-  fill: black;
 }
