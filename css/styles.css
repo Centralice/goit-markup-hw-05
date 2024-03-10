@@ -643,6 +643,10 @@ footer > .container {
   fill: transparent;
 }
 
-.field-checkbox:checked + .checkbox-span {
+.privacy-check:checked + .checkbox-label span {
   background-color: red;
+}
+
+.check-icon {
+  fill: black;
 }
