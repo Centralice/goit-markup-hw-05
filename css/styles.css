@@ -642,3 +642,7 @@ footer > .container {
   justify-content: center;
   fill: transparent;
 }
+
+.field-checkbox:checked + .checkbox-span {
+  background-color: red;
+}
