@@ -454,6 +454,67 @@ footer > .container {
 .footer .social-media-icon {
 }
 
+.footer-subscribe {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+}
+
+.footer-label {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-form-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+}
+
+.footer-btn {
+  border-radius: 4px;
+  background: #4d5ae5;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  fill: #fff;
+}
+
 .container {
   max-width: 1158px;
   width: 100%;
@@ -644,8 +705,8 @@ footer > .container {
 }
 
 .privacy-check:checked + .checkbox-label span {
-  background-color: #404BBF;
-  fill: #F4F4FD;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .check-icon {
