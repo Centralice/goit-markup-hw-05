@@ -462,8 +462,7 @@ footer > .container {
 
 .footer-form {
   display: flex;
-  flex-direction: column;
-  /* gap: 16px; */
+  gap: 24px;
 }
 
 .footer-label {
@@ -474,7 +473,9 @@ footer > .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  
+}
+
+.hidden-label {
 }
 
 .footer-form-wrapper {
