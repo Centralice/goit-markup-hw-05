@@ -457,6 +457,7 @@ footer > .container {
 .footer-subscribe {
   display: flex;
   margin-left: auto;
+  flex-direction: column;
 }
 
 .footer-form {
@@ -473,6 +474,7 @@ footer > .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  
 }
 
 .footer-form-wrapper {
